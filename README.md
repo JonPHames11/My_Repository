@@ -24,4 +24,21 @@ This is a **Streamlit** dashboard that visualizes data from a dataset of used ve
 - [Altair](https://altair-viz.github.io)
 
 ## 🗂️ Project Structure
+My_Repository/ ├── .streamlit/ │ └── config.toml ├── app.py ├── vehicles_us.csv ├── requirements.txt └── README.md
 
+
+## 🛠️ How to Run Locally
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/JonPHames11/My_Repository.git
+   cd My_Repository
+
+python -m venv venv
+venv\Scripts\activate       # On Windows
+# OR
+source venv/bin/activate    # On Mac/Linux
+
+pip install -r requirements.txt
+
+streamlit run app.py
