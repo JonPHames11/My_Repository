@@ -17,11 +17,14 @@ This is a **Streamlit** dashboard that visualizes data from a dataset of used ve
 
 ## 🧰 Technologies Used
 
-- **Python 3.11**
-- [Streamlit](https://streamlit.io)
-- [Pandas](https://pandas.pydata.org)
-- [Plotly](https://plotly.com)
-- [Altair](https://altair-viz.github.io)
+-  **Python 3.11**
+-  Streamlit – https://streamlit.io
+-  Pandas – https://pandas.pydata.org
+-  NumPy – https://numpy.org
+-  SciPy – https://scipy.org
+-  Matplotlib – https://matplotlib.org
+-  Plotly – https://plotly.com/python/
+-  nbformat – https://nbformat.readthedocs.io/en/latest/
 
 ## 🗂️ Project Structure
 My_Repository/ ├── .streamlit/ │ └── config.toml ├── app.py ├── vehicles_us.csv ├── requirements.txt └── README.md
